@@ -49,7 +49,7 @@ class Trainer:
             torch.manual_seed(999)
 
             # set to CIFAR10 size
-            self.config.width, self.config.height, self.config.label = 32, 32, 10
+            self.config.width, self.config.height, self.config.label, self.color_channel = 32, 32, 10, 3
 
             # set transforms
             self.trans_train = transforms.Compose([
