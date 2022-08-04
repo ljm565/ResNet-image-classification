@@ -100,23 +100,22 @@ ResNet에 대한 설명은 [Residual Network (ResNet)](https://ljm565.github.io/
 
 ## 결과
 * ### ResNet 결과
-    * Shortcut with zero padding<br><br>
-    <img src="result/img1.png" width="100%"><br><br>
-    Test set loss: 0.042665<br>
-    Test set acc: 0.989600<br><br>
+    * Training set loss history
+    <img src="result/result1.jpg" width="100%"><br><br>
 
-    * Shortcut with 1x1 convolutional layer<br><br>
-    <img src="result/img1.png" width="100%"><br><br>
-    Test set loss: 0.042665<br>
-    Test set acc: 0.989600<br><br>
+    * Validation set loss history
+    <img src="result/result2.jpg" width="100%"><br><br>
 
+    * Training set accuracy history<
+    <img src="result/result3.jpg" width="100%"><br><br>
 
-* ### CIFAR-10 test set 예측 결과
-    * Shortcut with zero padding<br><br>
-    <img src="result/img2.jpg" width="100%">
+    * Validation set accuracy history
+    <img src="result/result4.jpg" width="100%"><br><br>
 
-    * Shortcut with 1x1 convolutional layer<br><br>
-    <img src="result/img2.jpg" width="100%">
+    * Test set accuracy<br>
+    ResNet with zero padding shortcut: 0.899000<br>
+    ResNet with 1x1 conv. shortcut   : 0.902700<br>
+    CNN                              : 0.898200<br><br>
 <br><br><br>
 
 
