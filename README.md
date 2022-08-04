@@ -88,7 +88,7 @@ ResNet에 대한 설명은 [Residual Network (ResNet)](https://ljm565.github.io/
     * hieght, width: 데이터의 전 처리 할 크기를 지정(CIFAR-10 학습의 경우 코드 내에서 크기가 32 * 32로 자동 변환)
     * label: 데이터 셋의 label 종류 개수.
     * convert2grayscale: {0, 1} 중 선택, color_channel = 3 일때만 작동. 칼라 데이터를 흑백 데이터로 변경하고싶을 때 1, 칼라로 유지하고싶을 때 0으로 설정.
-    * num_layers: Residual block 종류별 개수 설정. (3이면 3*3*2=20, ResNet20 모델)
+    * num_layers: Residual block 종류별 개수 설정(3이면 3 * 3 * 2=20, ResNet20 모델).
     * model_name: {resnet, cnn} 중 선택. cnn 선택 시 shortcut이 없는 모델 생성
     * zero_padding: {0, 1} 중 선택. Shortcut을 위한 downsamping 중 1이면 zero padding, 0이면 1*1 convolutional layer를 이용.
     * batch_size: batch size 지정.
