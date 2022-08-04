@@ -101,16 +101,16 @@ ResNet에 대한 설명은 [Residual Network (ResNet)](https://ljm565.github.io/
 ## 결과
 * ### ResNet 결과
     * Training set loss history
-    <img src="result/result1.jpg" width="100%"><br><br>
+    <img src="result/result1.jpg" width="80%"><br><br>
 
     * Validation set loss history
-    <img src="result/result2.jpg" width="100%"><br><br>
+    <img src="result/result2.jpg" width="80%"><br><br>
 
-    * Training set accuracy history<
-    <img src="result/result3.jpg" width="100%"><br><br>
+    * Training set accuracy history
+    <img src="result/result3.jpg" width="80%"><br><br>
 
     * Validation set accuracy history
-    <img src="result/result4.jpg" width="100%"><br><br>
+    <img src="result/result4.jpg" width="80%"><br><br>
 
     * Test set accuracy<br>
     ResNet with zero padding shortcut: 0.899000<br>
