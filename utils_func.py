@@ -8,6 +8,7 @@ from model_ResNet import ResNet, ResidualBlock, CNNBlock
 def save_checkpoint(file, model, optimizer, scheduler):
     state = {'model': model.state_dict(), 'optimizer': optimizer.state_dict(), 'scheduler': scheduler.state_dict()}
     torch.save(state, file)
+    print('model pt file is being saved\n')
 
 
 def make_img_data(path, trans):
