@@ -162,6 +162,7 @@ class Trainer:
         step, epoch = 0, 0
         while step < self.steps:
             for phase in ['train', 'val']:
+                print('Phase: {}'.format(phase))
                 if phase == 'train':
                     self.model.train()
                 else:
