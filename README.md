@@ -117,9 +117,3 @@ ResNet에 대한 설명은 [Residual Network (ResNet)](https://ljm565.github.io/
     ResNet with 1x1 conv. shortcut   : 0.902700<br>
     CNN                              : 0.898200<br><br>
 <br><br><br>
-
-
-## License
-© 2022. Jun-Min Lee. All rights reserved.<br>
-ljm56897@gmail.com, ljm565@kaist.ac.kr, ljm565@naver.com
-
