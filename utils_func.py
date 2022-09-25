@@ -2,6 +2,7 @@ import torch
 import os
 from PIL import Image
 from tqdm import tqdm
+import sys
 from model_ResNet import ResNet, ResidualBlock, CNNBlock
 
 
@@ -28,5 +29,5 @@ def model_select(config, color_channel, device):
         model = ResNet(config, color_channel, config.num_layer, block)
     else:
         print("model mode have to be cnn or resnet")
-        raise AssertionError
+        sys.exit()
     return model.to(device)
