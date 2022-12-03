@@ -45,7 +45,7 @@ ResNet에 대한 설명은 [Residual Network (ResNet)](https://ljm565.github.io/
     <br><br>
 
 * ### 모델 학습 조건 설정 (config.json)
-    * **주의사항: 최초 학습 시 config.json이 사용되며, 이미 한 번 학습을 한 모델에 대하여 parameter를 바꾸고싶다면 base_path/model/{model_name}/{model_name}.json 파일을 수정해야 합니다.**
+    **주의사항: 최초 학습 시 config.json이 사용되며, 이미 한 번 학습을 한 모델에 대하여 parameter를 바꾸고싶다면 base_path/model/{model_name}/{model_name}.json 파일을 수정해야 합니다.**
 
     * ### CIFAR-10 데이터 사용 시
         * CIFAR10_train: {0, 1} 중 선택, 0인 경우 사용자 지정 데이터, 1인 경우 CIFAR-10 데이터 학습.
