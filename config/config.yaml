@@ -10,9 +10,9 @@ project: outputs/resnet_wo_zeropad
 name: CIFAR10
 
 # model config
-model_type: resnet        # [resnet, cnn]
-num_layer: 3
-zero_padding: False
+model_type: resnet        # [resnet, cnn] If resnet, ResNet will be loaded, else, vanilla CNN will be loaded.
+num_layer: 3              # Number of each residual block's layer. A model consisting of a total of (num_layer * 2 * 3 + 2) layers will be created.
+zero_padding: False       # For downsampling in the shortcuts, use zero padding if True, and a 1x1 convolutional layer if False.
 
 # image setting config
 height: 32
@@ -45,7 +45,7 @@ warmup_momentum: 0.8
 
 
 # prediction result visualzation config
-result_num: 10           # number of prediction results to be shown
+result_num: 10              # number of prediction results to be shown
 
 # logging config
 common: ['train_loss', 'train_acc', 'validation_loss', 'validation_acc', 'lr']
