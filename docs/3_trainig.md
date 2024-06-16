@@ -82,6 +82,5 @@ python3 src/run/train.py --config configs/config.yaml --mode train
 # training from resumed model
 python3 src/run/train.py --config config/config.yaml --mode resume --resume_model_dir {$project}/{$name}
 ```
-
+When training started, the learning rate curve will be saved in `{$project}/{$name}/vis_outputs/lr_schedule.png` automatically based on the values set in `config/config.yaml`.
 When the model training is complete, the checkpoint is saved in `{$project}/{$name}/weights` and the training config is saved at `{$project}/{$name}/args.yaml`.
-Additionally, the learning rate curve will be saved in `{$project}/{$name}/vis_outputs/lr_schedule.png` automatically based on the values set in `config/config.yaml`.

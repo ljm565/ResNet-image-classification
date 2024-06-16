@@ -82,5 +82,5 @@ python3 src/run/train.py --config configs/config.yaml --mode train
 # training from resumed model
 python3 src/run/train.py --config config/config.yaml --mode resume --resume_model_dir {$project}/{$name}
 ```
+학습이 시작되면 `config/config.yaml`에 세팅 된 값을 바탕으로 학습 lr curve 가시화 이미지가 `{$project}/{$name}/vis_outputs/lr_schedule.png`에 자동으로 저장됩니다.
 모델 학습이 끝나면 `{$project}/{$name}/weights`에 체크포인트가 저장되며, `{$project}/{$name}/args.yaml`에 학습 config가 저장됩니다.
-그리고 `config/config.yaml`에 세팅 된 값을 바탕으로 학습 lr curve 가시화 이미지가 `{$project}/{$name}/vis_outputs/lr_schedule.png`에 자동으로 저장됩니다.
