@@ -23,7 +23,7 @@ If you want to train your custom dataset, set the `CIFAR10_train` value in the `
 You may require to implement your custom dataloader codes in `src/utils/data_utils.py`.
 ```yaml
 CIFAR10_train: False    
-class_num: {$NUMBER_OF_CUSTOM_DATA_CLASSES}           
+class_num: ${NUMBER_OF_CUSTOM_DATA_CLASSES}           
 CIFAR10:
     path: data/
     CIFAR10_valset_proportion: 0.2 
