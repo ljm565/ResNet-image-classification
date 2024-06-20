@@ -51,10 +51,6 @@ momentum: 0.9
 weight_decay: 0.0
 warmup_momentum: 0.8
 
-
-# prediction result visualzation config
-result_num: 10              # number of prediction results to be shown
-
 # logging config
 common: ['train_loss', 'train_acc', 'validation_loss', 'validation_acc', 'lr']
 ```
